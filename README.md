@@ -125,8 +125,8 @@ From the project root, create and activate a virtual environment.
 **Windows PowerShell**
 
 ```powershell
-py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
+python -m venv .venv
+.\venv\Scripts\activate
 ```
 
 **macOS or Linux**
@@ -144,7 +144,7 @@ python -m pip install -r requirements.txt
 python -m streamlit run src/ui/app.py
 ```
 
-Open [http://localhost:8501](http://localhost:8501). Generate or upload data in the app. Generated files are saved under `output/data/`.
+Generate or upload data in the app. Generated files are saved under `output/data/`.
 
 ### With Docker
 
